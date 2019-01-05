@@ -1,7 +1,7 @@
 {
+  "manifest_version": 2,
   "name": "Spoof user agent.",
   "version": "0.0.1",
-  "background_page": "background.html",
   "permissions": [ "webRequest", "webRequestBlocking", "https://*/*", "http://*/*"],
   "content_scripts": [
     {
